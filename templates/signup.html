@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>New user</title>
+		<link rel="stylesheet" href="{% static 'css/login.css' %}">
+	</head>
+	<body>
+		<h1>New User</h1>
+		<fieldset>
+			<legend>New User</legend>
+			<form action="/firstapp/new_user/" method="GET">
+				<label>Name : <input id="in" type="text" name="t1"></label><br>
+				<label>Password : <input id="in" type="text" name="t2"></label><br>
+				<label>Email : <input id="in" type="text" name="t3"></label><br>
+				<label>Age : <input id="in" type="text" name="t4"></label><br><br>
+				<input id="but" type="submit" value="submit">
+				<input id="but" type="reset" value="reset">
+			</form>
+		</fieldset><br>
+		<a href="/firstapp/">Back to Login Page</a>
+	</body>
+</html>
