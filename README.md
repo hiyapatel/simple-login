@@ -1,9 +1,9 @@
 # simple-login
-Its just for the practice purpose.
+This is a web application that creates a login for the new user, and login for the registered user.
+Web framework used here is Django.
+It is created using: HTML5, CSS3, DJANGO
 
-Download the files.
-Run the requirements.txt file in command prompt.
-Then Run the application through command prompt.
-
-This will tell u if the user exist or not.
-
+How to excess or get the project:
+1) Pull the Directory.
+2) Make sure that appropriate software requirements are installed in the machine which are mensioned in requirements.txt file.
+3) You may run the program in command prompt.
